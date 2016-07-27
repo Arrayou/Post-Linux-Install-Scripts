@@ -1,19 +1,17 @@
 #!/bin/bash
 #Title: install.sh
-#Description: This will add the rpmfusion repositories and install handy applications.
+#Description: This will install google chrome, yaourt and update your system.
 #Author: Dragon's Fedora
 #Date: 27/07/2016
 #Version: 0.1
 #Using: sudo bash install.sh
-#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-sudo dnf install gnome-tweak-tool -y
-sudo dnf install --nogpgcheck http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-24.noarch.rpm -y
-sudo dnf install --nogpgcheck http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-24.noarch.rpm -y
-sudo bash -c 'su -c "curl http://folkswithhats.org/fedy-installer -o fedy-installer && chmod +x fedy-installer && ./fedy-installer"' -y
-sudo dnf install icedtea-web java-openjdk -y
-sudo dnf install gstreamer1-plugins-base gstreamer1-plugins-good gstreamer1-plugins-ugly gstreamer1-plugins-bad-free gstreamer1-plugins-bad-free gstreamer1-plugins-bad-freeworld gstreamer1-plugins-bad-free-extras ffmpeg -y
-sudo dnf install vlc -y
-sudo dnf install wine -y
-sudo dnf update -y
-
+sudo pacman -R firefox
+wget http://aur.archlinux.org/packages/yaourt/yaourt.tar.gz
+tar xvzf yaourt.tar.gz
+cd yaourt
+yes | sudo makepkg 
+yes | sudo pacman -U yaourt.pkg.tar.gz -y
+yes | sudo yaourt google-chrome-stable -y
+yes | sudo pacman -Syu
