@@ -7,12 +7,14 @@ All the scripts can be donwloaded and edited to your liking, you may also create
                                       List Of Distributions
                   
 Fedora 24
+
 wget https://raw.githubusercontent.com/Dragons-Fedora/Linux-Install-Scripts/master/Fedora-Install-Scripts/install.sh
 
 sudo bash install.sh
 _____________________________________________________________________________________________________________________________
 
 Manjaro 16.06
+
 wget https://raw.githubusercontent.com/Dragons-Fedora/Linux-Install-Scripts/master/Manjaro-Install-Scripts/install.sh
 
 sudo bash install.sh
