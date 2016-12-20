@@ -4,7 +4,7 @@ The point of this script is to install essential third party repositories and so
 
 All the scripts can be donwloaded and edited to your liking, you may also create your own install scripts based on mine to publish yourself.
 
-                                      List Of Distributions
+<h3> Put These Commands into a terminal accroding to the distribution you have </h3>
                   
 Fedora 24
 
