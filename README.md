@@ -17,7 +17,9 @@ ________________________________________________________________________________
 
 Manjaro 16.06
 
+<pre lang="bash">
 wget https://raw.githubusercontent.com/Dragons-Fedora/Linux-Install-Scripts/master/Manjaro-Install-Scripts/install.sh
 
 sudo bash install.sh
+</pre>
 _____________________________________________________________________________________________________________________________
