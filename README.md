@@ -9,7 +9,7 @@ All the scripts can be donwloaded and edited to your liking, you may also create
 
 <h3> Put These Commands into a terminal according to the distribution you have </h3>
                   
-Fedora 24
+Fedora 25
 
 <pre lang="bash">
 wget https://goo.gl/N6ksoh
@@ -20,7 +20,7 @@ sudo bash install.sh
 
 <hr>
 
-Manjaro 16.06
+Manjaro 16.10.3
 
 <pre lang="bash">
 wget https://goo.gl/CmOGQw
