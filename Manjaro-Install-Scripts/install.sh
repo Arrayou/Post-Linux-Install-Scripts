@@ -3,7 +3,7 @@
 #Description: This will install google chrome, yaourt and update your system.
 #Author: Dragon's Fedora
 #Date: 27/07/2016
-#Version: 0.1
+#Version: 0.0.2
 #Using: sudo bash install.sh
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -15,3 +15,4 @@ yes | sudo makepkg
 yes | sudo pacman -U yaourt.pkg.tar.gz -y
 yes | sudo yaourt google-chrome-stable -y
 yes | sudo pacman -Syu
+read -n 1 -s -p "Finished!, Press any key to continue"
