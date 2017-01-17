@@ -12,7 +12,8 @@ All the scripts can be donwloaded and edited to your liking, you may also create
 Fedora 24
 
 <pre lang="bash">
-wget https://raw.githubusercontent.com/Dragons-Fedora/Linux-Install-Scripts/master/Fedora-Install-Scripts/install.sh
+wget https://goo.gl/N6ksoh
+
 
 sudo bash install.sh
 </pre>
@@ -22,7 +23,7 @@ sudo bash install.sh
 Manjaro 16.06
 
 <pre lang="bash">
-wget https://raw.githubusercontent.com/Dragons-Fedora/Linux-Install-Scripts/master/Manjaro-Install-Scripts/install.sh
+wget https://goo.gl/CmOGQw
 
 sudo bash install.sh
 </pre>
