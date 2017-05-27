@@ -9,7 +9,7 @@ All the scripts can be donwloaded and edited to your liking, you may also create
 
 <h3> Put These Commands into a terminal according to the distribution you have </h3>
                   
-Fedora 25
+Fedora 26
 
 <pre lang="bash">
 wget https://raw.githubusercontent.com/Dragons-Fedora/Post-Linux-Install-Scripts/master/Fedora-Install-Scripts/install.sh
